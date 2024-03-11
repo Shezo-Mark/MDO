@@ -184,16 +184,98 @@ h1 {
   color: #3F97EB;
 }
 
-.tet {
-  background-color: red;
+a {
+  text-decoration: none;
 }
 
-.asdasds {
-  background-color: red;
+/*--------------*\
+    Boxes Section
+\*--------------*/
+/*-----------------*\
+    Button Section
+\*-----------------*/
+.btn:hover, .btn:focus {
+  outline: none;
 }
 
-.fsdfsdf {
-  background-color: red;
+.btn_green_fill {
+  font-family: "Poppins", sans-serif;
+  background-color: #92C53E;
+  border: 1px solid #92C53E;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px 20px;
 }
+.btn_green_fill:hover {
+  background-color: transparent;
+  border: 1px solid #92C53E;
+  color: #92C53E;
+}
+
+.btn_blue_fill {
+  font-family: "Poppins", sans-serif;
+  background-color: #02A1D3;
+  border: 1px solid #02A1D3;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+.btn_blue_fill:hover {
+  background-color: transparent;
+  border: 1px solid #02A1D3;
+  color: #02A1D3;
+}
+
+.btn_blue_transparent {
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+  border: 1px solid #02A1D3;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #02A1D3;
+  padding: 5px 20px;
+}
+.btn_blue_transparent:hover {
+  background-color: #02A1D3;
+  border: 1px solid #02A1D3;
+  color: #ffffff;
+}
+
+.btn_grey_fill {
+  font-family: "Poppins", sans-serif;
+  background-color: #D7D7D7;
+  border: 1px solid #D7D7D7;
+  border-radius: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+.btn_grey_fill:hover {
+  background-color: transparent;
+  border: 1px solid #D7D7D7;
+  color: #D7D7D7;
+}
+
+/*------------------*\
+    Carousel Section
+\*------------------*/
+/*--------------*\
+    Form Section
+\*--------------*/
+/*--------------*\
+    Lists Section
+\*--------------*/
+/*--------------*\
+    Modals Section
+\*--------------*/
+/*--------------*\
+    Tabs Section
+\*--------------*/
 
 /*# sourceMappingURL=main.css.map */
