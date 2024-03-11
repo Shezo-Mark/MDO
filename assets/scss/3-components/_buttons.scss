@@ -1,0 +1,11 @@
+/*-----------------*\
+    Button Section
+\*-----------------*/
+
+.btn{
+
+  &:hover,
+  &:focus{
+    outline: none;
+  }
+}

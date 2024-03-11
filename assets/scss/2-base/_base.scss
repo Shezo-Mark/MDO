@@ -1,0 +1,24 @@
+@use "sass:map";
+/*--------------*\
+    Base
+\*--------------*/
+
+body {
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  color: $main-body-color;
+  font-weight: $font-regular;
+}
+h1,h2,h3,h4,h5,h5,h6{
+  color: $black;
+}
+h1.main_heading{
+  font-family: $secondry-font-family;
+  font-size: 146px;
+}
+h1{
+  font-size: $font-size-h1;
+}
+.brand{
+  color: $brand;
+}
