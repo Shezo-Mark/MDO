@@ -9,6 +9,11 @@
         display: none;
       }
     .owl-item > div {
+      z-index: 0;
+      position: relative;
+      .bg_img{
+        position: absolute;
+      }
       cursor: pointer;
       margin: 6% 8%;
       max-width: 300px;
@@ -19,8 +24,9 @@
       display: flex;
       flex-wrap: wrap;
       h3{
-        padding: 0 0 0 29px;
+        padding: 0 0 0 10px;
         color: white;
+        z-index: 3;
       }
       align-items: end;
     }
@@ -31,6 +37,7 @@
       min-height: 400px;
       .list-hidden{
         display: block;
+        z-index: 3;
       }
     }
     .owl-item:not(.center) > div:hover {
