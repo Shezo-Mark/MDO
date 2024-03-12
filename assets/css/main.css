@@ -277,5 +277,44 @@ a {
 /*--------------*\
     Tabs Section
 \*--------------*/
+/*--------------*\
+    Home Page
+\*--------------*/
+.comprehensive_coverage_section {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.comprehensive_coverage_section .list-hidden {
+  display: none;
+}
+.comprehensive_coverage_section .owl-item > div {
+  cursor: pointer;
+  margin: 6% 8%;
+  max-width: 300px;
+  min-height: 335px;
+  border-radius: 12px;
+  color: white;
+  align-content: end;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+}
+.comprehensive_coverage_section .owl-item > div h3 {
+  padding: 0 0 0 29px;
+  color: white;
+}
+.comprehensive_coverage_section .owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+  max-width: 350px;
+  min-height: 400px;
+}
+.comprehensive_coverage_section .owl-item.center > div .list-hidden {
+  display: block;
+}
+.comprehensive_coverage_section .owl-item:not(.center) > div:hover {
+  opacity: 0.75;
+}
 
 /*# sourceMappingURL=main.css.map */
