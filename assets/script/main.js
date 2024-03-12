@@ -35,7 +35,7 @@ $owl.owlCarousel({
         1990:{
             items:5.5,
             nav:true,
-        }
+                    }
     }
 });
 
