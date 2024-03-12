@@ -7,7 +7,6 @@ $owl.children().each( function( index ) {
 $owl.owlCarousel({
   center: true,
   loop: true,
-  items: 5,
   responsiveClass:true,
     responsive:{
         0:{

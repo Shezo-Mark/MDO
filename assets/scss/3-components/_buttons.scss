@@ -18,10 +18,12 @@
   font-size: 14px;
   color: $white;
   padding: 5px 20px;
+  transition: 0.1s ease-in-out;
   &:hover{
-    background-color: transparent;
-    border: 1px solid $light_green;
-    color: $light_green;
+    padding: 4px 16px;
+    font-size: 16px;
+    color: $white;
+    transition: 0.1s ease-in-out;
   }
 }
 .btn_blue_fill{
@@ -33,10 +35,12 @@
   font-size: 14px;
   color: $white;
   padding: 20px 70px;
+  transition: 0.1s ease-in-out;
   &:hover{
-    background-color: transparent;
-    border: 1px solid $light_blue;
-    color: $light_blue;
+    font-size: 16px;
+    color: $white;
+    padding: 19px 64px;
+    transition: 0.1s ease-in-out;
   }
 }
 .btn_blue_transparent{
@@ -46,12 +50,14 @@
   border-radius: 12px;
   font-weight: 500;
   font-size: 14px;
-  color: $light_blue;
+  color: $white;
   padding: 20px 70px;
+  transition: 0.1s ease-in-out;
   &:hover{
-    background-color: $light_blue;
-    border: 1px solid $light_blue;
+    font-size: 16px;
     color: $white;
+    padding: 19px 64px;
+    transition: 0.1s ease-in-out;
   }
 }
 .btn_grey_fill{
@@ -63,9 +69,11 @@
   font-size: 14px;
   color: $white;
   padding: 5px 20px;
+  transition: 0.1s ease-in-out;
   &:hover{
-    background-color: transparent;
-    border: 1px solid $light_grey;
-    color: $light_grey;
+    color: $white;
+    font-size: 13px;
+    padding: 3px 16px;
+    transition: 0.1s ease-in-out;
   }
 }
