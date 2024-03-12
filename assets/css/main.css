@@ -511,6 +511,8 @@ footer P {
   display: none;
 }
 .comprehensive_coverage_section .owl-item > div {
+  z-index: 0;
+  position: relative;
   cursor: pointer;
   margin: 6% 8%;
   max-width: 300px;
@@ -522,9 +524,13 @@ footer P {
   flex-wrap: wrap;
   align-items: end;
 }
+.comprehensive_coverage_section .owl-item > div .bg_img {
+  position: absolute;
+}
 .comprehensive_coverage_section .owl-item > div h3 {
-  padding: 0 0 0 29px;
+  padding: 0 0 0 10px;
   color: white;
+  z-index: 3;
 }
 .comprehensive_coverage_section .owl-item.center > div {
   cursor: auto;
@@ -534,6 +540,7 @@ footer P {
 }
 .comprehensive_coverage_section .owl-item.center > div .list-hidden {
   display: block;
+  z-index: 3;
 }
 .comprehensive_coverage_section .owl-item:not(.center) > div:hover {
   opacity: 0.75;
