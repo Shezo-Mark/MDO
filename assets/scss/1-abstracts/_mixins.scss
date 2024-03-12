@@ -89,6 +89,11 @@
     @content;
   }
 }
+@mixin grid-xxl {
+  @media #{$xxl-em} {
+    @content;
+  }
+}
 
 @mixin grid-xs-only {
   @media #{$xs-only} {
