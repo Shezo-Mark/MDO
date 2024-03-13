@@ -841,11 +841,33 @@ footer P {
 
 .section_scrolabble {
   background-color: rgb(244, 244, 244);
+  padding: 20px 0;
 }
-.section_scrolabble .scroll_item {
+.section_scrolabble .scrol_main {
+  max-height: 700px;
+  overflow-y: scroll;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.section_scrolabble .scrol_main .scroll_item {
   background-color: #fff;
   border-radius: 20px;
   padding: 24px;
+  margin-bottom: 20px;
+}
+.section_scrolabble .scrol_main::-webkit-scrollbar {
+  width: 5px;
+}
+.section_scrolabble .scrol_main::-webkit-scrollbar-track {
+  background: rgb(217, 217, 217);
+}
+.section_scrolabble .scrol_main::-webkit-scrollbar-thumb {
+  background: #02A1D3;
+}
+.section_scrolabble .scrol_main::-webkit-scrollbar-thumb:hover {
+  background: #000000;
 }
 
 /*# sourceMappingURL=main.css.map */
