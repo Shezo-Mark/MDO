@@ -839,4 +839,13 @@ footer P {
   margin-top: 10px;
 }
 
+.section_scrolabble {
+  background-color: rgb(244, 244, 244);
+}
+.section_scrolabble .scroll_item {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 24px;
+}
+
 /*# sourceMappingURL=main.css.map */
