@@ -54,3 +54,28 @@ $('.stat-number').each(function () {
        }
     });
  });
+
+ 
+$('.test_slider').owlCarousel({
+    loop: true,
+    margin: 10,
+    nav: true,
+    responsive: {
+        0: {
+            nav: true,
+            items: 1
+        },
+        600: {
+            nav: true,
+            items: 2
+        },
+        1000: {
+            nav: true,
+            items: 3.5
+        },
+        1400: {
+            nav: true,
+            items: 3.5
+        }
+    }
+})
