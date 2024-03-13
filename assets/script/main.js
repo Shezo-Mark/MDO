@@ -14,21 +14,21 @@ $owl.owlCarousel({
             nav:true
         },
         480:{
-            items:2.5,
+            items:1.5,
             nav:true
         },
         768:{
-            items:3.5,
+            items:2.5,
             nav:true,
             loop:true
         },
         1024:{
-            items:4.5,
+            items:3.5,
             nav:true,
             loop:true
         },
         1440:{
-            items:5.5,
+            items:4.5,
             nav:true,
         },
         1990:{
@@ -65,13 +65,9 @@ $('.test_slider').owlCarousel({
             nav: true,
             items: 1
         },
-        600: {
-            nav: true,
-            items: 2
-        },
         1000: {
             nav: true,
-            items: 3.5
+            items: 2
         },
         1400: {
             nav: true,
