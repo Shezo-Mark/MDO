@@ -189,6 +189,16 @@
       border-radius: 20px;
       padding: 24px;
       margin-bottom: 20px;
+      .sroll_content{
+        .sroll_info{
+          .blue_badge{
+            background-color: $light_blue;
+            color: $white;
+            border-radius: 5px;
+            padding: 0px 2px;
+          }
+        }
+      }
     }
     /* width */
 &::-webkit-scrollbar {
