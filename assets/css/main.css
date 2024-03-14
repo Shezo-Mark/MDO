@@ -201,6 +201,22 @@ h2 {
   font-size: 55px;
 }
 
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
 .brand {
   color: #3F97EB;
 }
@@ -716,19 +732,23 @@ footer P {
   background-color: #02A1D3;
   border: none;
   border-radius: 36px;
-  padding: 4px 19px;
 }
-.nav-tabs .nav-item.show .nav-link i, .nav-tabs .nav-link.active i {
-  color: white;
+.nav-tabs .nav-item.show .nav-link .white_icon, .nav-tabs .nav-link.active .white_icon {
+  display: block;
+}
+.nav-tabs .nav-item.show .nav-link .dark_icon, .nav-tabs .nav-link.active .dark_icon {
+  display: none;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link {
   border: none;
   border-radius: 36px;
-  padding: 4px 19px;
 }
-.nav-tabs .nav-item.show .nav-link i, .nav-tabs .nav-link i {
-  color: #424652;
+.nav-tabs .nav-item.show .nav-link .white_icon, .nav-tabs .nav-link .white_icon {
+  display: none;
+}
+.nav-tabs .nav-item.show .nav-link .dark_icon, .nav-tabs .nav-link .dark_icon {
+  display: block;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:hover {
@@ -805,8 +825,8 @@ footer P {
   border-radius: 50px;
   padding: 7px;
 }
-.section_demo .nav-tabs li button i {
-  font-size: 13px;
+.section_demo .nav-tabs li button img {
+  width: 19px;
 }
 
 .testimonails_section {
