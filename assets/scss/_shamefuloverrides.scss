@@ -7,10 +7,14 @@
         content: "";
         background-image: url('/assets/images/hero_bg_mobile.png');
         position: absolute;
-        top: 155px;
-        right: 0px;
-        width: 400px;
-        height: 400px;
+        top: 0px;
+        left: 0;
+        /* transform: translateX(50%) !important; */
+        width: 100%;
+        /* height: auto; */
+        min-height: 555px;
+        max-height: 500px;
+        transform: scale(1.8);
     }
     .comprehensive_coverage_section .main-title {
       font-size: 36px;
@@ -29,9 +33,25 @@
     .section_hero .max-w {
         margin: 24px 0 0px;
     }
+    .section_hero  .col-md-8{
+        padding: 0 24px;
+    }
     .hero_counter{
         background-color: #12131C;
-        margin-left: -10px;
-        margin-right: -10px;
+        margin-left: -24px;
+        margin-right: -24px;
+        padding: 80px 24px;
+        h2{
+            font-size: 36px;
+            line-height: 52px;
+            margin-bottom: 52px;
+        }
+       .connter_wrap .count_item + .count_item {
+            margin-left: 0px;
+            margin-bottom: 60px;
+        }
+        .hero_counter .connter_wrap span {
+            font-size: 40px;
+        }
     }
   }
