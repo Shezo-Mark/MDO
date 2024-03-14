@@ -168,7 +168,7 @@ body {
   overflow-x: hidden;
 }
 
-@media only screen and (min-width: 87em) {
+@media only screen and (min-width: 93em) {
   .container {
     max-width: 1720px;
   }
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h5, h6 {
   font-weight: 700;
 }
 
-@media only screen and (min-width: 87em) {
+@media only screen and (min-width: 93em) {
   h1 {
     font-size: 70px;
   }
@@ -190,9 +190,10 @@ h1.main_title {
   font-size: 60px;
   color: white;
 }
-@media only screen and (min-width: 87em) {
+@media only screen and (min-width: 93em) {
   h1.main_title {
     font-size: 146px;
+    max-width: 900px;
     line-height: 140px;
   }
 }
@@ -202,7 +203,7 @@ h2 {
 }
 
 .brand {
-  color: #3F97EB;
+  color: #02C2FF;
 }
 
 a {
@@ -609,14 +610,24 @@ a {
   margin-top: 52px;
   width: 100%;
 }
+@media only screen and (max-width: 991.98px) {
+  .hero_counter .connter_wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+}
 .hero_counter .connter_wrap span {
-  font-size: 35px;
-  color: #3F97EB;
+  font-size: 53px;
+  color: #02C2FF;
   font-weight: 500;
 }
 .hero_counter .connter_wrap p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
+  color: #949494;
 }
 .hero_counter .connter_wrap .count_item + .count_item {
   margin-left: 20px;
@@ -627,6 +638,8 @@ a {
 \*--------------*/
 header {
   background-color: #0C0D11;
+  position: relative;
+  z-index: 9;
 }
 header .navbar-brand {
   max-width: 132px;
@@ -687,21 +700,39 @@ footer P {
     Hero Section
 \*--------------*/
 .section_hero {
-  background-image: url("/assets/images/hero-bg.png");
+  background-image: url("/assets/images/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  position: relative;
+  padding: 120px 0;
 }
-.section_hero p {
+.section_hero .container {
+  position: relative;
+  z-index: 2;
+}
+.section_hero .max-w {
   color: #949494;
   font-size: 18px;
   font-weight: 400;
   margin: 40px 0 75px;
+  max-width: 800px;
 }
-@media only screen and (min-width: 87em) {
-  .section_hero p {
+@media only screen and (min-width: 93em) {
+  .section_hero .max-w {
     font-size: 26px;
   }
+}
+.section_hero:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-39%);
+  background-image: url(/assets/images/hero-world.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1500px;
+  height: 1500px;
 }
 
 .section_demo {
@@ -967,6 +998,36 @@ footer P {
 .multi-select-container--open .multi-select-button:after {
   border-width: 0 0.4em 0.4em 0.4em;
   border-color: transparent transparent #999 transparent;
+}
+
+@media screen and (max-width: 575px) {
+  .section_hero {
+    padding: 279px 0;
+  }
+  .section_hero:before {
+    content: "";
+    position: absolute;
+    top: 155px;
+    right: 0px;
+    width: 400px;
+    height: 400px;
+  }
+  .comprehensive_coverage_section .main-title {
+    font-size: 35px;
+  }
+  .connter_wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  h1.main_title {
+    font-size: 56px;
+  }
+  .section_hero .max-w {
+    margin: 24px 0 0px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

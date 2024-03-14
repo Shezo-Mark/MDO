@@ -1,0 +1,29 @@
+@media screen and (max-width: 575px) {
+    .section_hero {
+        padding: 279px 0;
+    }
+    .section_hero:before {
+        content: "";
+        position: absolute;
+        top: 155px;
+        right: 0px;
+        width: 400px;
+        height: 400px;
+    }
+    .comprehensive_coverage_section .main-title {
+      font-size: 35px;
+  }
+    .connter_wrap{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    h1.main_title {
+        font-size: 56px;
+    }
+    .section_hero .max-w {
+        margin: 24px 0 0px;
+    }
+  }

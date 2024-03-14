@@ -12,16 +12,23 @@
         display: flex;
         justify-content:space-between;
         margin-top: 52px;
-        // padding: 50px;
         width: 100%;
+         @include grid-md-down{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+         }
       span{
-        font-size: 35px;
+        font-size: 53px;
         color: $brand;
         font-weight: 500;
       }
       p{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: 400;
+        color: #949494;
       }
       .count_item{
         + .count_item{
@@ -30,3 +37,4 @@
       }
      }
  }
+ 
