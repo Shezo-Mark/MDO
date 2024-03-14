@@ -603,6 +603,23 @@ a {
   border-radius: 5px;
 }
 
+.subscription_form h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #151515;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.subscription_form input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.subscription_form input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 /*--------------*\
     Lists Section
 \*--------------*/
@@ -1040,6 +1057,14 @@ footer P {
   background-image: url("/assets/images/shadow.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.h_fix {
+  width: 100%;
+  height: 493px;
+}
+.h_fix img {
+  object-fit: contain;
 }
 
 .owl-item.active.center ul.list-hidden li {

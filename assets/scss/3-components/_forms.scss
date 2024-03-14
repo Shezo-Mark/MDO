@@ -318,3 +318,21 @@
 
 
 
+.subscription_form{
+  h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #151515;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  input{
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
