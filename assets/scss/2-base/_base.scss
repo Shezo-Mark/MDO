@@ -51,3 +51,8 @@ a{
 .text_green{
   color: #93C246;
 }
+.flex_both{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
