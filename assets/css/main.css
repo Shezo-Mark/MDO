@@ -246,6 +246,22 @@ a {
   align-items: center;
 }
 
+.text_color_151515 {
+  color: #151515;
+}
+
+.text_color_5b5b5b {
+  color: #5b5b5b;
+}
+
+.font_size_16px {
+  font-size: 16px;
+}
+
+.opacity_70 {
+  opacity: 0.7;
+}
+
 /*--------------*\
     Boxes Section
 \*--------------*/
@@ -636,7 +652,7 @@ a {
   }
 }
 .hero_counter .connter_wrap span {
-  font-size: 53px;
+  font-size: 52px;
   color: #02C2FF;
   font-weight: 500;
 }
@@ -809,6 +825,7 @@ footer P {
   display: none;
   transition: 1s;
   height: 0;
+  font-size: 16px;
 }
 .comprehensive_coverage_section .owl-item > div {
   z-index: 0;
