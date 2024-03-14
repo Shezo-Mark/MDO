@@ -21,27 +21,29 @@
   }
 
   .list-hidden {
-    display: none;
+    visibility: hid;
     transition: 1s;
     height: 0;
   }
 
   .owl-item{
     > div {
-      z-index: 0;
-      position: relative;
+      cursor: pointer;
+      // margin: 7%;
+      transition: margin 0.7s ease;
+      
     >  img {
-        position: absolute;
-        height: 100%;
+        // position: absolute;
+        // height: 100%;
       }
   
       cursor: pointer;
-   margin: 14% 4%;
-      max-width: 320px;
+      margin: 7%;
+      // max-width: 320px;
       min-height: 335px;
       border-radius: 12px;
       color: white;
-      align-content: end;
+      // align-content: end;
       display: flex;
       flex-wrap: wrap;
   
@@ -51,19 +53,15 @@
         z-index: 3;
       }
   
-      align-items: end;
+      align-items: baseline;
     }
   }
 
   .owl-item.center>div {
     cursor: auto;
     margin: 0;
-    max-width: 400px;
-    min-height: 450px;
-    img {
-      filter: brightness(0.7);
-    }
-
+    // max-width: 400px;
+    // min-height: 450px;
     // background-color: rgba(0,0,0,0.5);
     .list-hidden {
       display: block;
