@@ -1,11 +1,20 @@
+
+.owl-item.active.center ul.list-hidden li {
+    font-weight: 100;
+    font-size: 16px;
+}
+
+// .owl-item.active.center ul.list-hidden, .owl-item h3 {
+//     display: none;
+// }
+
+// end A- >  CSS
 @media screen and (max-width: 575px) {
     .section_hero {
-        padding: 279px 0  0;
-        background-color: #151721;
+        padding: 279px 0;
     }
     .section_hero:before {
         content: "";
-        background-image: url('/assets/images/hero_bg_mobile.png');
         position: absolute;
         top: 155px;
         right: 0px;
@@ -13,8 +22,7 @@
         height: 400px;
     }
     .comprehensive_coverage_section .main-title {
-      font-size: 36px;
-      padding-top: 80px;
+      font-size: 35px;
   }
     .connter_wrap{
         display: grid;
@@ -29,9 +37,5 @@
     .section_hero .max-w {
         margin: 24px 0 0px;
     }
-    .hero_counter{
-        background-color: #12131C;
-        margin-left: -10px;
-        margin-right: -10px;
-    }
   }
+
