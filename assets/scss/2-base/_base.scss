@@ -31,6 +31,7 @@ h1.main_title{
   color: white;
   @include grid-xxl {
     font-size: 146px;
+    max-width: 900px;
     line-height: 140px;
   }
 }
@@ -71,3 +72,5 @@ a{
   justify-content: space-between;
   align-items: center;
 }
+
+

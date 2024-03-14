@@ -3,6 +3,8 @@
 \*--------------*/
 header{
     background-color: #0C0D11;
+    position: relative;
+    z-index: 9;
     .navbar-brand{
         max-width: 132px;
         width: 132px;
