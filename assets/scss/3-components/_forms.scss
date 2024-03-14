@@ -1,6 +1,54 @@
 /*--------------*\
     Form Section
 \*--------------*/
+.section_contact {
+    background-color: #313238;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    .contact_form{
+        width: 100%;
+        input{
+            width: 100%;
+            height: 56px;
+            background-color: #44444a;
+            border: 0;
+            outline: 0;
+            margin-top: 10px;
+            border-radius: 8px;
+            padding: 6px 12px 6px 12px;
+        }
+        textarea{
+            width: 100%;
+            min-height: 200px;
+            background-color: #44444a;
+            border: 0;
+            outline: 0;
+            margin-top: 10px;
+            border-radius: 8px;
+            padding: 6px 12px 6px 12px;
+        }
+      }
+    .contact_info{
+        margin-bottom: 50px;
+        padding-left: 40px;
+        h5{
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            color: white;
+        }
+        a{
+            font-size: 18px;
+            font-weight: 400;
+            color: white;
+        }
+       }
+  }
+
+
+
+
+
 .section_filter {
     background-color: rgba(248, 248, 248, 1);
     padding: 111px 0;
@@ -270,58 +318,3 @@
 
 
 
-
-
-
-
-
-
-
-body{
-    background-color: #F5F5FF;
-  }
-  .wrapper{
-    padding: 70px 0;
-  }
-  /* Default slide */
-  .center-slider .slick-slide{
-    background-color: #b32532;
-    color: #FFF;
-    height: 200px;
-    margin: 0 15px 0 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transform: scale(0.8);
-    transition: all 0.4s ease-in-out;
-  }
-  .center-slider .slick-slide,
-  .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
-    transform: scale(0.8, 0.8);
-    transition: all 0.4s ease-in-out;
-  }
-  
-  /* Active center slide (You can change anything here for cenetr slide)*/
-  .center-slider .slick-center,
-  .center-slider .slick-slide[aria-hidden="true"]:not([tabindex="-1"]) + .slick-cloned[aria-hidden="true"] {
-    transform: scale(1.1);
-    background-color: #000000;
-  }
-  .center-slider .slick-current.slick-active{
-    transform: scale(1.1);
-    background-color: #000000;
-  }
-  
-  .slick-next, .slick-prev{
-    z-index: 5;
-  }
-  .slick-next{
-    right: 15px;
-  }
-  .slick-prev{
-    left: 15px;
-  }
-  .slick-next:before, .slick-prev:before{
-    color: #000;
-    font-size: 26px;
-  }

@@ -1,0 +1,32 @@
+ .hero_counter{
+    > h2{
+        font-weight: 400;
+        margin: 0 !important;
+    }
+    .connter_wrap{
+        // background: tomato;
+        -webkit-display: flex;
+        -moz-display: flex;
+        -ms-display: flex;
+        -o-display: flex;
+        display: flex;
+        justify-content:space-between;
+        margin-top: 52px;
+        // padding: 50px;
+        width: 100%;
+      span{
+        font-size: 35px;
+        color: $brand;
+        font-weight: 500;
+      }
+      p{
+        font-size: 12px;
+        font-weight: 400;
+      }
+      .count_item{
+        + .count_item{
+            margin-left: 20px;
+        }
+      }
+     }
+ }
