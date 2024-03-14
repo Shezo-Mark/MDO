@@ -1,9 +1,11 @@
 @media screen and (max-width: 575px) {
     .section_hero {
-        padding: 279px 0;
+        padding: 279px 0  0;
+        background-color: #151721;
     }
     .section_hero:before {
         content: "";
+        background-image: url('/assets/images/hero_bg_mobile.png');
         position: absolute;
         top: 155px;
         right: 0px;
@@ -11,7 +13,8 @@
         height: 400px;
     }
     .comprehensive_coverage_section .main-title {
-      font-size: 35px;
+      font-size: 36px;
+      padding-top: 80px;
   }
     .connter_wrap{
         display: grid;
@@ -25,5 +28,10 @@
     }
     .section_hero .max-w {
         margin: 24px 0 0px;
+    }
+    .hero_counter{
+        background-color: #12131C;
+        margin-left: -10px;
+        margin-right: -10px;
     }
   }
