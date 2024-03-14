@@ -1061,6 +1061,12 @@ footer P {
   padding: 24px;
   margin-bottom: 20px;
 }
+.section_scrolabble .scrol_main .scroll_item .sroll_content .sroll_info .blue_badge {
+  background-color: #02A1D3;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0px 2px;
+}
 .section_scrolabble .scrol_main::-webkit-scrollbar {
   width: 5px;
 }
