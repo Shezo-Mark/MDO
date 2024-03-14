@@ -36,8 +36,8 @@
     }
 
     cursor: pointer;
-    margin: 6% 8%;
-    max-width: 300px;
+ margin: 14% 4%;
+    max-width: 320px;
     min-height: 335px;
     border-radius: 12px;
     color: white;
@@ -109,23 +109,32 @@
       background-color: white;
       min-height: 362px;
       border-radius: 15px;
+      p{
+        font-size: 17px;
+      }
       
     }
   }
 
   .owl-carousel {
     .owl-nav {
-      display: block !important;
       text-align: end !important;
       position: absolute !important;
       top: -55px !important;
       right: 50px !important;
+      display: flex !important;
 
       button.owl-next,
       button.owl-prev {
         padding: 3px 12px !important;
         background-color: white !important;
         border-radius: 50% !important;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
 
         &:hover {
           color: black !important

@@ -946,8 +946,8 @@ footer P {
   z-index: 0;
   position: relative;
   cursor: pointer;
-  margin: 6% 8%;
-  max-width: 300px;
+  margin: 14% 4%;
+  max-width: 320px;
   min-height: 335px;
   border-radius: 12px;
   color: white;
@@ -1010,18 +1010,26 @@ footer P {
   min-height: 362px;
   border-radius: 15px;
 }
+.testimonails_section .test_slider .slide p {
+  font-size: 17px;
+}
 .testimonails_section .owl-carousel .owl-nav {
-  display: block !important;
   text-align: end !important;
   position: absolute !important;
   top: -55px !important;
   right: 50px !important;
+  display: flex !important;
 }
 .testimonails_section .owl-carousel .owl-nav button.owl-next,
 .testimonails_section .owl-carousel .owl-nav button.owl-prev {
   padding: 3px 12px !important;
   background-color: white !important;
   border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .testimonails_section .owl-carousel .owl-nav button.owl-next:hover,
 .testimonails_section .owl-carousel .owl-nav button.owl-prev:hover {
