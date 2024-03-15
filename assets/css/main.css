@@ -787,8 +787,8 @@ footer P {
   background-image: url("/assets/images/demo.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 312px;
-  padding-bottom: 272px;
+  padding-top: 220px;
+  padding-bottom: 95px;
 }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
@@ -1019,18 +1019,6 @@ footer P {
   cursor: default;
 }
 
-.multi-select-button:after {
-  content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.4em 0.4em 0 0.4em;
-  border-color: #999 transparent transparent transparent;
-  margin-left: 0.4em;
-  vertical-align: 0.1em;
-}
-
 .multi-select-container--open .multi-select-menu {
   display: block;
 }
@@ -1042,18 +1030,6 @@ footer P {
 
 .shadow_botom {
   position: relative;
-}
-.shadow_botom:before {
-  content: "";
-  position: absolute;
-  bottom: -156px;
-  left: 0;
-  transform: translateX(-11%);
-  width: 100%;
-  height: 150px;
-  background-image: url("/assets/images/shadow.png");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .h_fix {
@@ -1138,12 +1114,25 @@ button.owl-dot.active {
 
 div#myTabContent .col-md-12 {
   text-align: -webkit-center !important;
-  min-height: 470px !important;
+  min-height: 550px !important;
   align-items: center !important;
   display: grid;
   justify-content: center;
 }
 
+div#myTabContent .col-md-12 {
+  transition: 0.7s ease;
+  animation: rotate 5s normal linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate3d(100deg);
+  }
+  20% {
+    transform: rotate3d(0, 0, 1, 90deg);
+  }
+}
 @media screen and (max-width: 575px) {
   .section_hero {
     padding: 279px 0;

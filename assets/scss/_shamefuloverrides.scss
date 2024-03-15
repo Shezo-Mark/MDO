@@ -70,14 +70,26 @@ button.owl-dot.active {
 }
 div#myTabContent .col-md-12 {
     text-align: -webkit-center !important;
-    min-height: 470px !important;
+    min-height: 550px !important;
     align-items: center !important;
     display: grid;
     justify-content: center;
 }
 
+div#myTabContent .col-md-12 {
+    transition:0.7s ease;
+    animation: rotate 5s normal linear;
+    
+}
 
-
+@keyframes rotate {
+    100% {
+        transform: rotate3d(100deg);
+    }
+    20% {
+        transform: rotate3d(0, 0, 1, 90deg);
+    }
+}
 
 
 // end A- >  CSS
