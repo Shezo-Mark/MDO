@@ -470,7 +470,7 @@ a {
   width: 100%;
 }
 .section_filter .filter_data {
-  height: 600px;
+  height: 800px;
   overflow-y: auto;
   display: none;
   /* Track */
