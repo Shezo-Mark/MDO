@@ -8,6 +8,18 @@
 //     display: none;
 // }
 
+.container{
+    .row{
+        position: relative;
+        .fix_content{
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            width: 50%;
+        }
+    }
+}
 // end A- >  CSS
 @media screen and (max-width: 575px) {
     .section_hero {

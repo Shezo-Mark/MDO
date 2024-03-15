@@ -10,21 +10,21 @@ $('.stat-number').each(function () {
     });
 });
 
-// $( ".custom_package" ).on( "click", function( event ) {
-//     event.preventDefault();
-//     $('.filter_data').removeClass('is_checked');
-//     $(".custom_package").addClass('is_checked');  
-//   });
-//   $( ".research_package" ).on( "click", function( event ) {
-//     event.preventDefault();
-//     $('.filter_data').removeClass('is_checked');
-//     $(".research_package").addClass('is_checked');  
-//   });
-//   $( ".ultimate_package" ).on( "click", function( event ) {
-//     event.preventDefault();
-//     $('.filter_data').removeClass('is_checked');
-//     $(".ultimate_package").addClass('is_checked');  
-//   });
+$( ".custom_package" ).on( "click", function( event ) {
+    event.preventDefault();
+    $('.filter_data').removeClass('is_checked');
+    $(".custom_package").addClass('is_checked');  
+  });
+  $( ".research_package" ).on( "click", function( event ) {
+    event.preventDefault();
+    $('.filter_data').removeClass('is_checked');
+    $(".research_package").addClass('is_checked');  
+  });
+  $( ".ultimate_package" ).on( "click", function( event ) {
+    event.preventDefault();
+    $('.filter_data').removeClass('is_checked');
+    $(".ultimate_package").addClass('is_checked');  
+  });
 
 
 

@@ -1088,6 +1088,17 @@ footer P {
   font-size: 16px;
 }
 
+.container .row {
+  position: relative;
+}
+.container .row .fix_content {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  width: 50%;
+}
+
 @media screen and (max-width: 575px) {
   .section_hero {
     padding: 279px 0;
