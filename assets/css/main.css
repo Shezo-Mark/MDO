@@ -461,8 +461,7 @@ a {
   display: inline-block;
   margin-bottom: 20px;
 }
-.section_filter .filter_nav span i {
-  color: rgb(116, 135, 155);
+.section_filter .filter_nav span img {
   margin-right: 13px;
 }
 .section_filter .filter_nav .dropdown button {
@@ -540,7 +539,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.section_filter .filter_data button i {
+.section_filter .filter_data button img {
   margin-right: 10px;
 }
 .section_filter .filter_data .accordion-body {
