@@ -1,14 +1,87 @@
 
 .owl-item.active.center ul.list-hidden li {
-    font-weight: 100;
-    font-size: 16px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+}
+.owl-stage{
+    min-height: 400px;
 }
 
+.scrol_main {
+    margin: 7% 0;
+}
 // .owl-item.active.center ul.list-hidden, .owl-item h3 {
 //     display: none;
 // }
+.item-content {
+    position: absolute;
+    margin: 5% 1%;
+    bottom: 20px;
+    width: 85%;
+}
+.owl-item.active.center .item-content {
+    width: 95%;
+    animation-name: slidee;
+    
+}
+.owl-item.active.center img {
+    filter: brightness(0.3);
+    transition: 1s ease !important;
+}
+
+
+.section_scrolabble .container {
+    max-height: 100vh;
+    overflow-y: scroll;
+    z-index: 1;
+    position: sticky;
+}
+
+.section_scrolabble .col-md-6 {
+    position: absolute;
+    right: 0 !important;
+    margin-top: 18em !important;
+}
+.bg-img {
+    position: absolute;
+}
+
+@media (min-width: 1200px) {
+    .container.box-container {
+        width: 1440px;
+    }
+}
+.owl-dots {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+}
+button.owl-dot {
+    background-color: #34384E1A !important;
+    width: 15px !important;
+    height: 15px !important;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+button.owl-dot.active {
+    background-color: #02C2FF !important; 
+}
+div#myTabContent .col-md-12 {
+    text-align: -webkit-center !important;
+    min-height: 470px !important;
+    align-items: center !important;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+
 
 // end A- >  CSS
+
 @media screen and (max-width: 575px) {
     .section_hero {
         padding: 279px 0;
@@ -39,3 +112,24 @@
     }
   }
 
+  /* width */
+  .section_scrolabble .container::-webkit-scrollbar {
+    width: 5px;
+
+  }
+  
+  /* Track */
+  .section_scrolabble .container::-webkit-scrollbar-track {
+    background: rgba(217, 217, 217, 1);
+
+  }
+  
+  /* Handle */
+  .section_scrolabble .container::-webkit-scrollbar-thumb {
+    background: #02A1D3;
+  }
+  
+  /* Handle on hover */
+  .section_scrolabble .container::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+  }

@@ -17,14 +17,15 @@
   }
 
   .comprehensive_coverage_slider {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 
   .list-hidden {
-    visibility: hid;
-    transition: 1s;
+    display: none;
+    transition: 1s ease;
     height: 0;
   }
+ 
 
   .owl-item{
     > div {
@@ -32,7 +33,7 @@
       // margin: 7%;
       transition: margin 0.7s ease;
       
-    >  img {
+    > img {
         // position: absolute;
         // height: 100%;
       }
@@ -51,6 +52,10 @@
         padding: 0 10px 0 10px;
         color: white;
         z-index: 3;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 15px;
+      
       }
   
       align-items: baseline;
@@ -66,8 +71,8 @@
     .list-hidden {
       display: block;
       z-index: 3;
-      transition: 1s;
       height: 100%;
+      
     }
   }
 
@@ -77,8 +82,6 @@
   }
 
 }
-
-
 
 
 .section_demo{
@@ -182,12 +185,17 @@
 }
 
 
-.section_scrolabble{
+.section_scrolabble {
   background-color: rgba(244, 244, 244, 1);
-  padding: 20px 0 64px;
+  // padding: 20px 0 64px;
+  // max-height: 100vh;
+  // overflow-y: scroll;
+  // background-image: url(/assets/images/bg-img.png);
+  // background-repeat: no-repeat;
+  // background-position: center;
+  // background-size: cover;
   .scrol_main{
-    max-height: 1300px;
-    overflow-y: scroll;
+    
     .scroll_item{
       background-color: #fff;
       border-radius: 20px;
@@ -215,25 +223,7 @@
         }
       }
     }
-    /* width */
-&::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Track */
-&::-webkit-scrollbar-track {
-  background: rgba(217, 217, 217, 1);
-}
-
-/* Handle */
-&::-webkit-scrollbar-thumb {
-  background: #02A1D3;
-}
-
-/* Handle on hover */
-&::-webkit-scrollbar-thumb:hover {
-  background: #000000;
-}
+  
   }
 
 }
