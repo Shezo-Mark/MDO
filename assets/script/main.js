@@ -41,7 +41,7 @@ $owl.owlCarousel({
     nav:false,
     dots:true,
     responsiveClass: true,
-    autoplay:false,
+    autoplay:true,
     // slideTransition: linear,
 autoplayTimeout:3000,
 autoplayHoverPause:true,
@@ -122,3 +122,15 @@ $('.test_slider').owlCarousel({
 //       }
 //     ]
 //   });
+
+
+    $(window).on("load resize scroll", function() {
+        $("#scrolls").each(function() {
+        var windowTop = $(window).scrollTop();
+        var elementTop = $(this).offset().top;
+        var leftPosition = windowTop - elementTop;
+            $(this)
+            .find(".bg-img")
+            .css({ left: leftPosition });
+        });
+    });
